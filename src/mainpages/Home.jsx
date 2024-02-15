@@ -16,6 +16,7 @@ function Home() {
   const messagetext = useRef();
 
   useEffect(() => {
+    isloggedin();
     getservers();
     getmessages();
     renderservers();
@@ -29,7 +30,6 @@ function Home() {
       reload();
     };
   }, [messageThread, render, focused]);
-  isloggedin();
 
   focustextbox();
 
