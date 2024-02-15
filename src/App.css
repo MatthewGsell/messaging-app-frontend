@@ -114,7 +114,6 @@ a {
 
 /*Home container/messages starts here*/
 
-
 #homecontainer {
   display: flex;
   min-height: 100vh;
@@ -827,19 +826,22 @@ a {
 .kickuserbutton:hover {
   cursor: pointer;
 }
+#loadingh1 {
+  width: 100%;
+  text-align: center;
+}
 
 @media screen and (max-width: 1500px) {
   #editmembersbutton {
     left: 80%;
   }
   #memberscontainer {
-    left: 80%
+    left: 80%;
   }
   #serverbarcontainer > button {
     width: 75px;
   }
   #directmessages {
-
     height: 80.75%;
   }
 }
