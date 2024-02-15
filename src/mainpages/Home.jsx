@@ -30,7 +30,7 @@ function Home() {
       clearInterval(interval);
       reload();
     };
-  }, [messageThread, render, focused]);
+  }, [messageThread, render, focused, loggedInn]);
 
   focustextbox();
 
