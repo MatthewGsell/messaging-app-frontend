@@ -38,7 +38,7 @@ function Signup() {
         <button id="submitbutton" onClick={databasesignup}>
           Sign Up!
         </button>
-        <p>Not a member?{<Link to="/login">Sign Up</Link>}</p>
+        <p>Already a member?{<Link to="/login">Log In</Link>}</p>
         <p id="signlogerror">{error}</p>
       </div>
     </div>
